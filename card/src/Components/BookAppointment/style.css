@@ -1,0 +1,93 @@
+.Appointment {
+  margin-top: 6em;
+  margin-bottom: 3em;
+}
+
+.appointment-form {
+  margin: 0 10px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.appointment-form div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appointment-form input {
+  width: 50%;
+  margin: 5px;
+  color: var(--white);
+  font-family: var(--font);
+  letter-spacing: 1px;
+  font-size: 15px;
+  padding: 10px;
+  border: none;
+  color-scheme: dark;
+  outline: none;
+}
+
+.appointment-form input:focus {
+  outline: none;
+}
+
+.appointment-form input::placeholder {
+  color: var(--white);
+  font-family: var(--font);
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+.inpt-l {
+  text-align: left;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background: transparent
+    linear-gradient(270deg, rgb(0 165 34 / 0%) 0%, rgb(0 255 67 / 30%) 100%);
+}
+
+.inpt-r {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-align: right;
+  background: transparent
+    linear-gradient(90deg, rgb(0 165 34 / 0%) 0%, rgb(0 255 67 / 30%) 100%);
+}
+
+.send-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.send-button button {
+  color: var(--white);
+  background-color: var(--light-green);
+  font-family: var(--font);
+  letter-spacing: 1px;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-radius: 20px;
+  padding: 10px 25px;
+  border: none;
+  transition: all 0.5s ease;
+}
+
+.send-button button:hover {
+  transform: scale(1.1);
+}
+
+.error, .success {
+    font-family: var(--font);
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(255, 38, 38);
+}
+
+.success {
+    color: var(--light-green);
+}
